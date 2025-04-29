@@ -13,8 +13,8 @@ public class FileLister {
      * Recursively calls dir.listFiles to traverse all files and subdirectories
      * in a given directory.
      * @param dir File directory that will be fully displayed
-     * @param depth int used for keeping track of recursion depth for tab spacing
-     * @param textArea JTextArea that where the directory breakdown will be displayed
+     * @param depth int used for keeping track of recursion depth for indent spacing
+     * @param textArea JTextArea where the directory breakdown will be displayed
      */
     public void listAllFiles(File dir, int depth, JTextArea textArea) {
         File[] files = dir.listFiles();
