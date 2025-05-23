@@ -83,4 +83,8 @@ public class FileListerGUI extends JFrame {
     private void resetFileDisplay() {
         textArea.setText("");
     }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new FileListerGUI());
+    }
 }
